@@ -1,0 +1,138 @@
+// Variables
+@import './helpers/variables.scss';
+@import './helpers/mixins.scss';
+
+// Pages
+@import './pages/homepage/home.scss';
+@import './pages/homepage/showcase.scss';
+@import './pages/homepage/cta.scss';
+@import './pages/homepage/artists.scss';
+@import './pages/homepage/service.scss';
+@import './pages/homepage/contact.scss';
+@import './pages/homepage/footer.scss';
+
+@import './pages/artists/header.scss';
+@import './pages/artists/content.scss';
+
+@import './pages/form/header.scss';
+@import './pages/form/content.scss';
+
+@import './pages/tattoo/header.scss';
+@import './pages/tattoo/content.scss';
+
+@import './pages/removal/header.scss';
+@import './pages/removal/content.scss';
+
+@import './pages/studio/header.scss';
+@import './pages/studio/content.scss';
+
+@import './pages/piercing/header.scss';
+@import './pages/piercing/content.scss';
+
+// Global
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $regular-text;
+    color: $text-white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.overlay {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #0f0f0ff2;
+    z-index: 99999;
+}
+
+.nav-colored {
+    background-color: #0f0f0ff2 !important;
+}
+
+.nav-transparent {
+    background-color: transparent !important;
+}
+
+.overlay nav {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay nav ul {
+    list-style: none;
+}
+
+.overlay ul li {
+    padding: 1rem;
+}
+
+.overlay li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.overlay .close-button {
+    position: absolute;
+    top: 28px;
+    right: 21px;
+    font-size: 2rem;
+}
+
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    background: $dark-black;
+}
+
+#map {
+    width: 100%;
+    height: 65vh;
+}
+
+.mapboxgl-ctrl-bottom-right,
+.mapboxgl-ctrl-bottom-left {
+    display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $dark-black;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $green;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #305c5c;
+}
+
