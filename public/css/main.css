@@ -568,8 +568,9 @@
 
 .header-artists {
   height: 55vh;
-  background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url("/assets/images/slider1.jpg");
+  background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url("/assets/images/banner.jpg");
   background-size: cover;
+  background-position: bottom;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -645,7 +646,7 @@
 
 .artists-content-wrap .artists-title {
   color: #efefef;
-  font-family: "Righteous", cursive;
+  font-family: "Montserrat", sans-serif;
   line-height: 3.5rem;
   text-align: center;
   font-size: 5rem;
@@ -654,9 +655,31 @@
   text-shadow: 0px 0px 10px #0f0f0f;
 }
 .artists-content-wrap .artists-content {
-  max-width: 60vw;
+  max-width: 70vw;
   margin: 0 auto;
-  font-family: "Righteous", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+.artists-content-wrap .artists-content .single-artist {
+  margin-top: 4rem;
+}
+.artists-content-wrap .artists-content .single-artist .single-artist-title {
+  margin: 1rem 0;
+  font-size: 2.7rem;
+}
+.artists-content-wrap .artists-content .single-artist .single-artist-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.artists-content-wrap .artists-content .single-artist .single-artist-wrap .single-artist-left {
+  flex: 0 1 calc(50% - 1rem);
+}
+.artists-content-wrap .artists-content .single-artist .single-artist-wrap .single-artist-right {
+  flex: 0 1 50%;
+}
+.artists-content-wrap .artists-content .single-artist .single-artist-wrap .single-artist-right .single-artist-image {
+  flex: 0 1 calc(50% - 0.5rem);
+  height: 100%;
 }
 
 .header-faq {

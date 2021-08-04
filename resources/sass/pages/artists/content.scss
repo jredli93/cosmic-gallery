@@ -1,8 +1,8 @@
 .artists-content-wrap {
-
+    
     .artists-title {
         color: $text-white;
-        font-family: $styled-text;
+        font-family: $regular-text;
         line-height: 3.5rem;
         text-align: center;
         font-size: 5rem;
@@ -12,8 +12,38 @@
     }
 
     .artists-content {
-        max-width: 60vw;
+        max-width: 70vw;
         margin: 0 auto;
-        font-family: $styled-text;
+        font-family: $regular-text;
+
+        .single-artist {
+            margin-top: 4rem;
+
+            .single-artist-title {
+                margin: 1rem 0;
+                font-size: 2.7rem;
+            }
+
+            .single-artist-wrap {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .single-artist-left {
+                    flex: 0 1 calc(50% - 1rem);
+                }
+
+                .single-artist-right {
+                    flex: 0 1 50%;
+
+                    .single-artist-image {
+                        flex: 0 1 calc(50% - 0.5rem);
+                        height: 100%;
+                    }
+                }
+            }
+
+        }
+
     }
 }

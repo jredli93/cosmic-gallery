@@ -2,8 +2,9 @@
     height: 55vh;
     // -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 80%, 50% 90%, 0 80%, 0 0);
     // clip-path: polygon(0 0, 100% 0, 100% 0, 100% 85%, 50% 95%, 0 85%, 0 0);
-    background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url('/assets/images/slider1.jpg');
+    background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.9), rgba(0, 0, 0, 0.17)), url('/assets/images/banner.jpg');
     background-size: cover;
+    background-position: bottom;
     display: flex;
     flex-direction: column;
     align-items: center;
