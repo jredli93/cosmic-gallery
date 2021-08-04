@@ -21,6 +21,10 @@ class PageController extends Controller
         return view('pages.artists.index');
     }
 
+    public function contact() {
+        return view('pages.contact.index');
+    }
+
     public function form($id) {
         return view('pages.form.index', compact('id'));
     }
@@ -33,22 +37,4 @@ class PageController extends Controller
 
         return view('pages.tattoo.index', compact('services'));
     }
-
-    // public function removal() {
-
-    //     $services = ServiceType::whereHas('serviceGroup', function($q){
-    //         $q->where('name', 'removal');
-    //     })->get();
-
-    //     return view('pages.removal.index', compact('services'));
-    // }
-
-    // public function piercing() {
-
-    //     $services = ServiceType::whereHas('serviceGroup', function($q){
-    //         $q->where('name', 'piercing');
-    //     })->get();
-
-    //     return view('pages.piercing.index', compact('services'));
-    // }
 }

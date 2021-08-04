@@ -1,6 +1,6 @@
 <footer class="footer-wrap">
     <div class="footer">
-        <span class="footer-right">2021 Dado.ch</span>
+        <span class="footer-right">2021 Cosmic Gallery</span>
         <img src="/assets/images/logo-cosmicgallery.png" class="footer-logo" alt="">
         <div class="social-links">
             <i class="fa fa-instagram"></i>

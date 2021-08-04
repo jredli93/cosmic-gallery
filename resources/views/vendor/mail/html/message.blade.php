@@ -21,7 +21,7 @@
 {{-- Footer --}}
 @slot('footer')
 @component('mail::footer')
-© {{ date('Y') }} DadoTattoo. @lang('All rights reserved.')
+© {{ date('Y') }} Cosmic Gallery. @lang('All rights reserved.')
 @endcomponent
 @endslot
 @endcomponent

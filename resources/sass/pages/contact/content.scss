@@ -1,0 +1,76 @@
+.contact-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72vh;
+    padding: 5rem 0;
+    @include center-content();
+
+    @include tablet() {
+        display: block;
+        height: auto;
+    }
+
+    .contact-map {
+        flex: 0 1 calc(65% - 1rem);
+        height: 100%;
+
+        @include tablet() {
+            height: 50vh;
+            width: 100%;
+        }
+    }
+
+    .contact-form {
+        height: 100%;
+        background: #fcfcfc29;
+        flex: 0 1 calc(35% - 1rem);
+        padding: 3rem;
+
+        @include tablet() {
+            margin-top: 2.5rem;
+        }
+
+        .input-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+
+            label {
+                padding: 0.4rem 0;
+                color: $darkBlue;
+                font-size: 1.25rem;
+                font-family: $styled-text;
+            }
+
+            input[type] {
+                height: 2.1rem;
+                border: none;
+                padding: 0.7rem;
+                color: $darkBlue;
+
+                &:focus {
+                    outline: $orange;
+                }
+            }
+
+            ::placeholder {
+                color: #21546e41;
+                font-family: $styled-text;
+                letter-spacing: 0.1rem;
+            }
+
+            textarea {
+                height: auto;
+                color: $darkBlue;
+                padding: 0.7rem;
+                border: none;
+
+                &:focus {
+                    outline: $orange;
+                }
+            }
+        }
+    }
+}

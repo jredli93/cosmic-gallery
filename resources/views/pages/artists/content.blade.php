@@ -1,4 +1,5 @@
 <section class="artists-content-wrap">
+    <span class="artists-overtitle">Our process of</span>
     <h1 class="artists-title">Artists</h1>
     <div class="artists-content">
         <div class="single-artist">

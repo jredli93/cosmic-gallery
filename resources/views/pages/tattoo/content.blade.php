@@ -1,6 +1,6 @@
 <section class="tattoo-content-wrap">
     <div class="tattoo-content">
-
+{{-- 
         @if($services)
             @foreach($services as $service)
                 <a class="time-slot-reservation" onclick='return serviceId()' data-service="{{ $service->id }}" style="margin-left: 400px; margin-top: 200px; text-decoration:none;" href="/reservations/{{$service->id}}">Reserve termin for {{$service->service_name}} | Price {{$service->price}}CHF | Duration {{$service->duration}} MIN</a> <br>
@@ -9,7 +9,7 @@
 
         @else
             NO SERVICES
-        @endif
+        @endif --}}
 
         <span class="tattoo-overtitle">Our process of</span>
         <h1 class="tattoo-title">Tattoing</h1>

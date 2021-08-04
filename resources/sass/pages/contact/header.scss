@@ -1,0 +1,110 @@
+.header-contact {
+    @include nav;
+    position: relative;
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .banner-contact {
+        @include center-content();
+        height: 100%;
+        background: transparent;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 8rem;
+
+        .banner-single {
+            flex: 0 1 calc(25% - 0.5rem);
+            height: 25vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            animation: gradient 4s ease infinite;
+            box-shadow: 0 0 6px 0px #28acc2;
+            padding: 0 3rem;
+
+            @include laptop() {
+                flex: 0 1 calc(50% - 1rem);
+            }
+
+            @include mobile() {
+                flex: 0 1 100%;
+                margin-top: 1rem;
+            }
+
+            .banner-single-title {
+                margin: 0.6rem 0;
+            }
+
+            .banner-single-text {
+                text-align: center;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 10px;
+                right: 10px;
+                top: 10px;
+                bottom: 10px;
+                border: 2px solid #ffffff5d;
+            }
+        }
+    }
+
+    .banner-single:nth-child(1) {
+        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+
+    }
+
+    .banner-single:nth-child(2) {
+        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background-size: 400% 400%;
+        animation: gradient 2s ease infinite;
+    }
+
+    .banner-single:nth-child(3) {
+        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background-size: 400% 400%;
+        animation: gradient 7s ease infinite;
+    }
+
+    .banner-single:nth-child(4) {
+        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background-size: 400% 400%;
+        animation: gradient 3s ease infinite;
+    }
+
+    .contact-overtitle {
+        color: #545454;
+        font-size: 1.2rem;
+        display: block;
+        text-align: center;
+    }
+
+    .contact-title {
+        color: $text-white;
+        font-family: $styled-text;
+        text-align: center;
+        padding-top: 8rem;
+        font-size: 5rem;
+    }
+}
