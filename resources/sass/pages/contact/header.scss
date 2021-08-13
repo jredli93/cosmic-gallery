@@ -69,26 +69,26 @@
     }
 
     .banner-single:nth-child(1) {
-        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
         background-size: 400% 400%;
         animation: gradient 5s ease infinite;
 
     }
 
     .banner-single:nth-child(2) {
-        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
         background-size: 400% 400%;
         animation: gradient 2s ease infinite;
     }
 
     .banner-single:nth-child(3) {
-        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
         background-size: 400% 400%;
         animation: gradient 7s ease infinite;
     }
 
     .banner-single:nth-child(4) {
-        background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
+        background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
         background-size: 400% 400%;
         animation: gradient 3s ease infinite;
     }
@@ -102,7 +102,7 @@
 
     .contact-title {
         color: $text-white;
-        font-family: $styled-text;
+        font-family: $regular-text;
         text-align: center;
         padding-top: 8rem;
         font-size: 5rem;

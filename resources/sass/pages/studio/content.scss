@@ -4,6 +4,23 @@
         max-width: 70vw;
         margin: 0 auto;
 
+        .studio-gallery {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 5rem;
+
+            .studio-img {
+                width: 100%;
+            }
+
+            .studio-gallery-single {
+                flex: 0 1 calc(33% - 1rem);
+                margin-top: 1.5rem;
+            }
+        }
+
         .studio-overtitle {
             color: $green;
             font-size: 1.2rem;
@@ -14,7 +31,7 @@
 
         .studio-title {
             color: $text-white;
-            font-family: $styled-text;
+            font-family: $regular-text;
             line-height: 3.5rem;
             text-align: center;
             font-size: 5rem;

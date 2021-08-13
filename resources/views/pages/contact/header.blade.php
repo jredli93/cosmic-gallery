@@ -1,9 +1,8 @@
 <section class="header-contact">
     @include('utils.menu')
     <h1 class="contact-title">Contact Us</h1>
-    <hr class="underline center">
+    <hr class="underline center gradient-galaxy">
     <span class="contact-overtitle">Send us a message</span>
-
     <div class="banner-contact" data-aos="fade-up">
         <div data-aos="fade-up" data-aos-delay="50" class="banner-single">
             <i class="fa fa-3x fa-phone"></i>

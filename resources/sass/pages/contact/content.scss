@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     height: 72vh;
-    padding: 5rem 0;
+    padding-top: 5rem;
     @include center-content();
 
     @include tablet() {
@@ -39,7 +39,7 @@
 
             label {
                 padding: 0.4rem 0;
-                color: $darkBlue;
+                color: $green;
                 font-size: 1.25rem;
                 font-family: $styled-text;
             }
@@ -48,10 +48,10 @@
                 height: 2.1rem;
                 border: none;
                 padding: 0.7rem;
-                color: $darkBlue;
+                color: $green;
 
                 &:focus {
-                    outline: $orange;
+                    outline: orange;
                 }
             }
 
@@ -63,12 +63,12 @@
 
             textarea {
                 height: auto;
-                color: $darkBlue;
+                color: $green;
                 padding: 0.7rem;
                 border: none;
 
                 &:focus {
-                    outline: $orange;
+                    outline: orange;
                 }
             }
         }

@@ -14,5 +14,3 @@ $("#header").vegas({
         }
     ]
 });
-
-AOS.init();

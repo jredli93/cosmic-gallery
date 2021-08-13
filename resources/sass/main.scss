@@ -139,3 +139,95 @@ body {
     background: #305c5c;
 }
 
+.btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+
+    touch-action: manipulation;
+    user-select: none;
+
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+
+    transition: all 250ms ease-in-out;
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.btn--gradient {
+    transition: all 500ms ease-in-out;
+    font-size: 24px;
+
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background: linear-gradient(54.7deg, #21546e 12%, #67bdcc 100%);
+}
+
+
+.btn--gradient:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    opacity: 0;
+
+    transition: all 500ms ease-in-out;
+    background: linear-gradient(54.7deg, #67bdcc 12%, #21546e 100%);
+}
+
+.btn--gradient:hover:before {
+    opacity: 1;
+    color: #fff;
+}
+
+.btn--xlrg {
+    height: 68px;
+    line-height: 68px;
+    padding: 0 2rem;
+
+    @include mobile {
+        line-height: 45px;
+        height: 50px;
+    }
+}
+
+.btn__text {
+    z-index: 2;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+
+    @include mobile() {
+        font-size: 0.7rem;
+    }
+}
+
+.underline {
+    height: 0.3rem;
+    background: #f06037c4;
+    width: 8rem;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.gradient-background {
+    background: rgb(120, 120, 120);
+    background: linear-gradient(55deg, #171717 0%, rgb(19 19 19 / 91%) 100%);
+}
+
+.gradient-galaxy {
+    background-image: linear-gradient(90deg, #25636d 0%, #729cb7 89%);
+}
