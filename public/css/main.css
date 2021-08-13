@@ -829,25 +829,25 @@
   border: 2px solid #ffffff5d;
 }
 .header-contact .banner-single:nth-child(1) {
-  background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 5s ease infinite;
           animation: gradient 5s ease infinite;
 }
 .header-contact .banner-single:nth-child(2) {
-  background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 2s ease infinite;
           animation: gradient 2s ease infinite;
 }
 .header-contact .banner-single:nth-child(3) {
-  background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 7s ease infinite;
           animation: gradient 7s ease infinite;
 }
 .header-contact .banner-single:nth-child(4) {
-  background: linear-gradient(30deg, #ffffff, #c5c5c5, #ffffff);
+  background: linear-gradient(30deg, #33a2a1, #238eb5, #129475);
   background-size: 400% 400%;
   -webkit-animation: gradient 3s ease infinite;
           animation: gradient 3s ease infinite;
@@ -893,7 +893,7 @@
 }
 .contact-content-wrap .contact-form {
   height: 100%;
-  background: #fcfcfc29;
+  background: #33a2a10d;
   flex: 0 1 calc(35% - 1rem);
   padding: 3rem;
 }
@@ -912,7 +912,7 @@
   padding: 0.4rem 0;
   color: #3e7f80;
   font-size: 1.25rem;
-  font-family: "Righteous", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 .contact-content-wrap .contact-form .input-form input[type] {
   height: 2.1rem;
@@ -925,17 +925,17 @@
 }
 .contact-content-wrap .contact-form .input-form ::-moz-placeholder {
   color: #21546e41;
-  font-family: "Righteous", cursive;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.1rem;
 }
 .contact-content-wrap .contact-form .input-form :-ms-input-placeholder {
   color: #21546e41;
-  font-family: "Righteous", cursive;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.1rem;
 }
 .contact-content-wrap .contact-form .input-form ::placeholder {
   color: #21546e41;
-  font-family: "Righteous", cursive;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.1rem;
 }
 .contact-content-wrap .contact-form .input-form textarea {

@@ -23,7 +23,7 @@
 
     .contact-form {
         height: 100%;
-        background: #fcfcfc29;
+        background: #33a2a10d;
         flex: 0 1 calc(35% - 1rem);
         padding: 3rem;
 
@@ -41,7 +41,7 @@
                 padding: 0.4rem 0;
                 color: $green;
                 font-size: 1.25rem;
-                font-family: $styled-text;
+                font-family: $regular-text;
             }
 
             input[type] {
@@ -57,7 +57,7 @@
 
             ::placeholder {
                 color: #21546e41;
-                font-family: $styled-text;
+                font-family: $regular-text;
                 letter-spacing: 0.1rem;
             }
 
