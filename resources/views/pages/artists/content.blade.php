@@ -1,5 +1,5 @@
 <section class="artists-content-wrap">
-    <span class="artists-overtitle">List</span>
+    <span class="artists-overtitle">List of</span>
     <h1 class="artists-title">Artists</h1>
 
     <h1 class="artist-name">Darko Kovacevic</h1>

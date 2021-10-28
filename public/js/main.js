@@ -93,18 +93,22 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+var _ref;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 $("#header").vegas({
   transition: 'flash2',
   animation: 'random',
   timer: false,
-  slides: [{
+  slides: [(_ref = {
     video: {
       src: ['/assets/images/tattooing.mp4'],
       loop: true,
       mute: true
     },
     src: '/assets/images/slider1.jpg'
-  }]
+  }, _defineProperty(_ref, "src", '/assets/images/slider2.jpg'), _defineProperty(_ref, "src", '/assets/images/slider3.jpg'), _ref)]
 });
 
 /***/ }),
