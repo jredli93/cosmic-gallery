@@ -46,6 +46,8 @@
   }
   .header .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -84,6 +86,11 @@
   font-size: 5.3rem;
   line-height: 1rem;
   font-family: "Righteous", cursive;
+}
+@media (max-width: 426px) {
+  .header .cta .cta-heading {
+    font-size: 3.6rem;
+  }
 }
 .header .cta .cta-subheading {
   font-weight: 100;
@@ -617,6 +624,8 @@
   }
   .header-artists .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header-artists .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -644,6 +653,16 @@
   text-shadow: 0px 0px 5px #0f0f0f;
 }
 
+.artists-content-wrap {
+  max-width: 70vw;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .artists-content-wrap {
+    max-width: 80vw;
+  }
+}
 .artists-content-wrap .artists-overtitle {
   color: #3e7f80;
   font-size: 1.2rem;
@@ -661,32 +680,39 @@
   margin-bottom: 2rem;
   text-shadow: 0px 0px 10px #0f0f0f;
 }
-.artists-content-wrap .artists-content {
-  max-width: 70vw;
-  margin: 0 auto;
+.artists-content-wrap .artist-name {
+  color: #efefef;
   font-family: "Montserrat", sans-serif;
+  line-height: 3.5rem;
+  font-size: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 10px #0f0f0f;
+}
+.artists-content-wrap .artists-content {
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  gap: 1rem;
+}
+.artists-content-wrap .artists-content .image-grid-col-2 {
+  grid-column: span 2;
+}
+.artists-content-wrap .artists-content .image-grid-row-2 {
+  grid-row: span 2;
 }
 .artists-content-wrap .artists-content .single-artist {
-  margin-top: 4rem;
-}
-.artists-content-wrap .artists-content .single-artist .single-artist-title {
-  margin: 1rem 0;
-  font-size: 2.7rem;
-}
-.artists-content-wrap .artists-content .single-artist .single-artist-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.artists-content-wrap .artists-content .single-artist .single-artist-wrap .single-artist-left {
-  flex: 0 1 calc(50% - 1rem);
-}
-.artists-content-wrap .artists-content .single-artist .single-artist-wrap .single-artist-right {
-  flex: 0 1 50%;
-}
-.artists-content-wrap .artists-content .single-artist .single-artist-wrap .single-artist-right .single-artist-image {
-  flex: 0 1 calc(50% - 0.5rem);
+  width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 768px) {
+  .artists-content-wrap .artists-content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+  }
 }
 
 .header-contact {
@@ -734,6 +760,8 @@
   }
   .header-contact .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header-contact .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -864,6 +892,11 @@
   text-align: center;
   padding-top: 8rem;
   font-size: 5rem;
+}
+@media (max-width: 426px) {
+  .header-contact .contact-title {
+    font-size: 3.5rem;
+  }
 }
 
 .contact-content-wrap {
@@ -1000,6 +1033,8 @@
   }
   .header-faq .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header-faq .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -1157,6 +1192,8 @@
   }
   .header-tattoo .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header-tattoo .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -1248,6 +1285,16 @@
   margin-top: 9rem;
   text-shadow: 0px 0px 10px #0f0f0f;
 }
+@media (max-width: 768px) {
+  .tattoo-content-wrap .tattoo-content .tattoo-title-advice {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .tattoo-content-wrap .tattoo-content .tattoo-title-advice {
+    font-size: 2rem;
+  }
+}
 .tattoo-content-wrap .tattoo-content .tattoo-text {
   margin-top: 2rem;
   text-align: center;
@@ -1287,7 +1334,7 @@
 }
 @media (max-width: 1024px) {
   .tattoo-content-wrap .tattoo-content .process-wrap .process-container .process-single {
-    flex: 0 1 calc(50% - 1rem);
+    flex: 0 1 100%;
   }
 }
 .tattoo-content-wrap .tattoo-content .process-wrap .process-container .process-single .process-single-icon {
@@ -1330,6 +1377,11 @@
   border: 1px solid white;
   border-radius: 4px;
   background: transparent;
+}
+@media (max-width: 426px) {
+  .tattoo-content-wrap .tattoo-content .legal-age-button {
+    width: 100%;
+  }
 }
 
 .header-removal {
@@ -1384,6 +1436,8 @@
   }
   .header-removal .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header-removal .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -1601,6 +1655,8 @@
   }
   .header-studio .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header-studio .navigation-mobile .navigation-hamburger {
     font-size: 2rem;
@@ -1645,6 +1701,16 @@
 .studio-content-wrap .studio-content .studio-gallery .studio-gallery-single {
   flex: 0 1 calc(33% - 1rem);
   margin-top: 1.5rem;
+}
+@media (max-width: 768px) {
+  .studio-content-wrap .studio-content .studio-gallery .studio-gallery-single {
+    flex: 0 1 calc(50% - 1rem);
+  }
+}
+@media (max-width: 426px) {
+  .studio-content-wrap .studio-content .studio-gallery .studio-gallery-single {
+    flex: 0 1 100%;
+  }
 }
 .studio-content-wrap .studio-content .studio-overtitle {
   color: #3e7f80;
@@ -1797,6 +1863,8 @@
   }
   .header-piercing .navigation-mobile .navigation-mobile-logo {
     width: 100px;
+    padding: 1.5rem;
+    background: white;
   }
   .header-piercing .navigation-mobile .navigation-hamburger {
     font-size: 2rem;

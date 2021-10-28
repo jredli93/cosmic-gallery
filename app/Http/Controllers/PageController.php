@@ -31,10 +31,10 @@ class PageController extends Controller
 
     public function tattoo() {
 
-        $services = ServiceType::whereHas('serviceGroup', function($q){
-            $q->where('name', 'tattoo');
-        })->get();
+        // $services = ServiceType::whereHas('serviceGroup', function($q){
+        //     $q->where('name', 'tattoo');
+        // })->get();
 
-        return view('pages.tattoo.index', compact('services'));
+        return view('pages.tattoo.index');
     }
 }

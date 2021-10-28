@@ -106,5 +106,9 @@
         text-align: center;
         padding-top: 8rem;
         font-size: 5rem;
+
+        @include mobile {
+            font-size: 3.5rem;
+        }
     }
 }

@@ -18,6 +18,14 @@
             .studio-gallery-single {
                 flex: 0 1 calc(33% - 1rem);
                 margin-top: 1.5rem;
+
+                @include tablet {
+                    flex: 0 1 calc(50% - 1rem);
+                }
+
+                @include mobile {
+                    flex: 0 1 100%;
+                }
             }
         }
 
