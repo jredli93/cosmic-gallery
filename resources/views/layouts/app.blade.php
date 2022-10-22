@@ -36,7 +36,6 @@
 <body>
 
     @yield('header')
-    {{-- @yield('showcase')
     @yield('cta')
     @yield('artists')
     @yield('service')

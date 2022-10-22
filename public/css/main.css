@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "dado-font";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/fast-hand.ttf");
+}
 .header {
   height: 100vh;
 }
@@ -85,7 +91,7 @@
   font-weight: 300;
   font-size: 5.3rem;
   line-height: 1rem;
-  font-family: "Righteous", cursive;
+  font-family: "dado-font";
 }
 @media (max-width: 426px) {
   .header .cta .cta-heading {
@@ -673,7 +679,7 @@
 }
 .artists-content-wrap .artists-title {
   color: #efefef;
-  font-family: "Montserrat", sans-serif;
+  font-family: "dado-font";
   line-height: 3.5rem;
   text-align: center;
   font-size: 5rem;
@@ -889,7 +895,7 @@
 }
 .header-contact .contact-title {
   color: #efefef;
-  font-family: "Montserrat", sans-serif;
+  font-family: "dado-font";
   text-align: center;
   padding-top: 8rem;
   font-size: 5rem;
@@ -1086,7 +1092,7 @@
 }
 .form-content-wrap .contact .contact-title {
   color: #efefef;
-  font-family: "Righteous", cursive;
+  font-family: "dado-font";
   line-height: 3.5rem;
   text-align: center;
   font-size: 5rem;
@@ -1271,7 +1277,7 @@
 }
 .tattoo-content-wrap .tattoo-content .tattoo-title {
   color: #efefef;
-  font-family: "Montserrat", sans-serif;
+  font-family: "dado-font";
   line-height: 3.5rem;
   text-align: center;
   font-size: 5rem;
@@ -1279,7 +1285,7 @@
 }
 .tattoo-content-wrap .tattoo-content .tattoo-title-advice {
   color: #efefef;
-  font-family: "Montserrat", sans-serif;
+  font-family: "dado-font";
   line-height: 3.5rem;
   text-align: center;
   font-size: 5rem;
@@ -1312,7 +1318,7 @@
 }
 .tattoo-content-wrap .tattoo-content .process-wrap .process-title {
   color: #efefef;
-  font-family: "Montserrat", sans-serif;
+  font-family: "dado-font";
   line-height: 3.2rem;
   text-align: center;
   font-size: 4rem;
@@ -1722,7 +1728,7 @@
 }
 .studio-content-wrap .studio-content .studio-title {
   color: #efefef;
-  font-family: "Montserrat", sans-serif;
+  font-family: "dado-font";
   line-height: 3.5rem;
   text-align: center;
   font-size: 5rem;
